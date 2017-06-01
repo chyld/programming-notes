@@ -1,5 +1,4 @@
-https://github.com/gotcha/ipdb
-
+- https://github.com/gotcha/ipdb
 
 ```
 import ipdb
@@ -10,4 +9,27 @@ ipdb.pm()
 ipdb.run('x[0] = 3')
 result = ipdb.runcall(function, arg0, arg1, kwarg='foo')
 result = ipdb.runeval('f(1,2) - 3')
+```
+
+- https://docs.python.org/3.6/library/pdb.html
+
+```
+import pdb; pdb.set_trace()
+```
+
+- http://ipython.readthedocs.io/en/stable/interactive/reference.html#embedding
+
+```
+from IPython import embed
+embed() # this call anywhere in your program will start IPython
+```
+
+- https://docs.python.org/3.6/library/functions.html
+
+```
+dir()
+locals()
+globals()
+vars()
+x.__dict__
 ```
