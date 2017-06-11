@@ -1,3 +1,10 @@
+- https://docs.python.org/3.6/library/traceback.html
+
+```
+import traceback
+traceback.print_stack()
+```
+
 - https://github.com/gotcha/ipdb
 
 ```
