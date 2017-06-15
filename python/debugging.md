@@ -40,3 +40,8 @@ globals()
 vars()
 x.__dict__
 ```
+
+### Profiling
+
+- https://docs.python.org/2/library/profile.html
+- `python -m cProfile -s cumtime main.py`
