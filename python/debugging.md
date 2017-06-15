@@ -1,3 +1,5 @@
+## Debugging
+
 - https://docs.python.org/3.6/library/traceback.html
 
 ```
@@ -41,7 +43,7 @@ vars()
 x.__dict__
 ```
 
-### Profiling
+## Profiling
 
 - https://docs.python.org/2/library/profile.html
 - `python -m cProfile -s cumtime main.py`
